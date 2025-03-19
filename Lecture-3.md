@@ -96,7 +96,28 @@ int main() {
     return 0;  // Return 0 to indicate successful execution
 }
 
+                                     pattern 1111 2222 3333 44444
+#include <iostream>
+using namespace std;
 
+int main() {
+    int n;
+    cout << "Enter the value of n: ";
+    cin >> n;  // Take user input
+
+    int i = 1;
+    while (i <= n) {
+        int j = 1;
+        while (j <= n) {
+            cout << i;
+            j = j + 1;
+        }
+        cout << endl;
+        i = i + 1;
+    }
+
+    return 0;  // Return 0 to indicate successful execution
+}
 
 
 
