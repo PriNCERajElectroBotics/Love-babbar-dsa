@@ -108,18 +108,41 @@ int main() {
      int col =1; int value=row;                             2 3                       H W
      while(col<=row)                                        3 4 5
      {                                                      4 5 6 7
-        cout<<value<<" ";
-       value=value+1;
+        cout<<value<<" ";            
+       value=value+1;    
         col=col+1;
     }
-      cout<<endl;
+      cout<<endl;                        
    row=row+1;
    cout<<endl;
 }
 
     return 0;
 }
+                                   code for pattern 
+#include <iostream>                                    1
+using namespace std;                                    2 1
+                                                        3 2 1        
+int main() {                                            4 3 2 1
+    int n;
+    cout << "Enter the value of n: ";
+    cin >> n;  // Take user input
 
-
+    int i=1;
+    while(i<=n)
+    {
+        int j=1;
+        while(j<=i)
+        {
+            cout<< i-j+1<<" " ;
+            
+            j=j+1;
+        }
+        
+        i=i+1;
+        cout<<endl;
+    }
+    
+}
 
 
