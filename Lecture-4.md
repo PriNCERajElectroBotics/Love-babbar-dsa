@@ -123,15 +123,15 @@ int main() {
 #include <iostream>                                    1
 using namespace std;                                    2 1
                                                         3 2 1        
-int main() {                                            4 3 2 1
+int main() {                                            4 3 2 1 
     int n;
-    cout << "Enter the value of n: ";
+    cout << "Enter the value of n: ";                       i-j+1
     cin >> n;  // Take user input
 
     int i=1;
     while(i<=n)
     {
-        int j=1;
+        int j=1;                                        // i-j+1
         while(j<=i)
         {
             cout<< i-j+1<<" " ;
