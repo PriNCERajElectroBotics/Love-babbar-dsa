@@ -145,4 +145,8 @@ int main() {                                            4 3 2 1
     
 }
 
+                              A A A
+                              B B B
+                              C C C
+               A +  row -1               
 
