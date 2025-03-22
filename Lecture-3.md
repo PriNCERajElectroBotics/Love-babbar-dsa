@@ -153,7 +153,7 @@ int n;
 cin>>n;
 int row=1;       
 while(row<=n)
- { int col=1;
+ { int col=1;                                            can not directly cout formula, it will give ascii value in num.
    while(col<=n)
    
    { 
