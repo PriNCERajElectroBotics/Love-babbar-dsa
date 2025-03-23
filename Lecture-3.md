@@ -161,7 +161,7 @@ while(row<=n)
        cout<<ch;
      col=col+1;
    }cout<<endl;
-   row=row+1;
+   row=row+1;                         iuhdfijsguifidaoui
    
  }
  }                
